@@ -20,7 +20,19 @@ const $cards=document.querySelector(".cards"),
           {
               title: "Tecnologia",
               img: "https.....",
-          }
+          },
+          {
+            title: "Tecnologia",
+            img: "https.....",
+        },
+        {
+            title: "Tecnologia",
+            img: "https.....",
+        },
+        {
+            title: "Tecnologia",
+            img: "https.....",
+        },
       ];
       cardContent.forEach ((el) => {
           $template.querySelector("img").setAttribute("src",el.img);
